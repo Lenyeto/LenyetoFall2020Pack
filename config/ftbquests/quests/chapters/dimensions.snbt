@@ -1,0 +1,18 @@
+{
+	id: "714386E010731602",
+	group: "69847CC76F46001E",
+	order_index: 0,
+	filename: "dimensions",
+	title: "Dimensions!",
+	default_quest_shape: "",
+	quests: [{
+		x: -1.0d,
+		y: 1.0d,
+		id: "53BED9F4EA7EADF1",
+		tasks: [{
+			id: "476D292C50A6DFC2",
+			type: "dimension",
+			dimension: "minecraft:overworld"
+		}]
+	}]
+}

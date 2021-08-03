@@ -1,0 +1,19 @@
+{
+  "shapes": [
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reverse": 0,
+      "reticle": 12,
+      "stride": 0,
+      "elevation": 0,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOXOO"
+      ]
+    }
+  ]
+}

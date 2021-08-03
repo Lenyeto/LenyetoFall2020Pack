@@ -1,0 +1,38 @@
+{
+	id: "1E22CD9228B10D94",
+	group: "443CFD57714C95C6",
+	order_index: 0,
+	filename: "creating_something_new",
+	title: "Creating Something New",
+	default_quest_shape: "gear",
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		description: [
+			"There are many ways to create rotational force!",
+			"My personal favorite are windmills, these looks nice and are incredibly consistent."
+		],
+		id: "2858333F801E3E9E",
+		tasks: [
+			{
+				id: "63FBABA818673BE1",
+				type: "item",
+				item: "create:windmill_bearing",
+				consume_items: false
+			},
+			{
+				id: "5DC9CD504C7D3A08",
+				type: "item",
+				item: "create:white_sail",
+				count: 8L,
+				consume_items: false
+			}
+		],
+		rewards: [{
+			id: "123BF55237D0F761",
+			type: "item",
+			item: "thermal:iron_coin",
+			count: 4
+		}]
+	}]
+}

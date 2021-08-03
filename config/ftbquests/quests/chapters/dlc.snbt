@@ -1,0 +1,10 @@
+{
+	id: "2D57DED0CC06A9E7",
+	group: "",
+	order_index: 0,
+	filename: "dlc",
+	title: "DLC",
+	always_invisible: true,
+	default_quest_shape: "",
+	quests: []
+}
