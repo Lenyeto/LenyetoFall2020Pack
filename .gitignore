@@ -17,3 +17,5 @@ usernamecache.json
 WailaErrorOutput.txt
 imm_ptl_state.json
 *.dat
+.curseclient
+config/ftbultimine.snbt

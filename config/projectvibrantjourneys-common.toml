@@ -14,6 +14,16 @@
 			"Enable Clams" = true
 			"Enable Small Spiders" = true
 
+			[Settings."Mob Settings"."Mob Toggles"."Mob Spawn Weights"]
+				"Clam Spawn Weight" = 10
+				"Slug Spawn Weight" = 25
+				"Frog Spawn Weight" = 30
+				"Starfish Spawn Weight" = 30
+				"Fly Spawn Weight" = 15
+				"Firefly Spawn Weight" = 30
+				"Snail Spawn Weight" = 30
+				"Small Spider Spawn Weight" = 5
+
 		[Settings."Mob Settings"."Misc Mob Settings"]
 			"Mute Flies" = false
 
@@ -57,6 +67,56 @@
 
 	#Biome Settings
 	[Settings.Biomes]
-		verdantSands = true
-		overgrownSpires = true
+		red_rock_valley = true
+		alpine_heights = true
+		snowy_boreal_forest = true
+		crimson_thicket = true
+		pine_meadows = true
+		boreal_forest = true
+		windswept_cliffs = true
+		aspen_grove = true
+		prairie = true
+		autumnal_coniferous_forest = true
+		redwood_peaks = true
+		baobab_fields = true
+		desert_shrubland = true
+		overgrown_spires = true
+		willow_wetlands = true
+		redwoods = true
+		blossoming_fields = true
+		mangrove_marsh = true
+		verdant_sands = true
+		crystal_lakes = true
+		boreal_plateau = true
+		snowy_redwoods = true
+
+		#Biome Weights
+		[Settings.Biomes."Biome Weights"]
+			snowy_redwoods_weight = 3
+			willow_wetlands_weight = 3
+			boreal_forest_weight = 3
+			crystal_lakes_weight = 3
+			crimson_thicket_weight = 3
+			prairie_weight = 3
+			autumnal_coniferous_forest_weight = 3
+			boreal_plateau_weight = 3
+			redwood_peaks_weight = 3
+			alpine_heights_weight = 3
+			mangrove_marsh_weight = 3
+			red_rock_valley_weight = 3
+			snowy_boreal_forest_weight = 3
+			aspen_grove_weight = 3
+			verdant_sands_weight = 3
+			overgrown_spires_weight = 3
+			desert_shrubland_weight = 3
+			pine_meadows_weight = 3
+			baobab_fields_weight = 3
+			blossoming_fields_weight = 3
+			windswept_cliffs_weight = 3
+			redwoods_weight = 3
+
+	#Tree Settings
+	[Settings."Tree Settings"]
+		enablePalmTrees = true
+		enableJuniperTrees = true
 
