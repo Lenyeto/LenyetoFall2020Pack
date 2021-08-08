@@ -1,38 +1,429 @@
 {
-	id: "1E22CD9228B10D94",
-	group: "443CFD57714C95C6",
-	order_index: 0,
-	filename: "creating_something_new",
-	title: "Creating Something New",
-	default_quest_shape: "gear",
-	quests: [{
-		x: 0.0d,
-		y: 0.0d,
-		description: [
-			"There are many ways to create rotational force!",
-			"My personal favorite are windmills, these looks nice and are incredibly consistent."
-		],
-		id: "2858333F801E3E9E",
-		tasks: [
-			{
-				id: "63FBABA818673BE1",
-				type: "item",
-				item: "create:windmill_bearing",
-				consume_items: false
-			},
-			{
-				id: "5DC9CD504C7D3A08",
-				type: "item",
-				item: "create:white_sail",
-				count: 8L,
-				consume_items: false
-			}
-		],
-		rewards: [{
-			id: "123BF55237D0F761",
-			type: "item",
-			item: "thermal:iron_coin",
-			count: 4
-		}]
-	}]
+	id: "1E22CD9228B10D94"
+	group: "443CFD57714C95C6"
+	order_index: 0
+	filename: "creating_something_new"
+	title: "Creating Something New"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"There are many ways to create rotational force!"
+				"My personal favorite are windmills, these looks nice and are incredibly consistent."
+			]
+			id: "2858333F801E3E9E"
+			tasks: [
+				{
+					id: "63FBABA818673BE1"
+					type: "item"
+					item: "create:windmill_bearing"
+					consume_items: false
+				}
+				{
+					id: "5DC9CD504C7D3A08"
+					type: "item"
+					item: "create:white_sail"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "123BF55237D0F761"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "097495C06F830453"
+			tasks: [{
+				id: "7F50ABC0BD55ADDB"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "74F10C334D1E2534"
+			tasks: [{
+				id: "39749225F3A89AA7"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			id: "07A910AFBFD2E06D"
+			tasks: [{
+				id: "187A1FC835FC7E27"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			id: "13491779EDB66001"
+			tasks: [{
+				id: "2D6146B61343F16F"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			id: "6A1744A7BF421ED0"
+			tasks: [{
+				id: "266B753BF9737182"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["22BC591131E200DF"]
+			id: "3BFAB73904803C27"
+			tasks: [{
+				id: "566E6FC91EF4D9A3"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			id: "22BC591131E200DF"
+			tasks: [{
+				id: "77BA04B12BC14ABF"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			id: "5F57CBA209B3664C"
+			tasks: [{
+				id: "28E29552483B810E"
+				type: "item"
+				item: "minecolonies:supplycampdeployer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			id: "26A2E91EB865ACD1"
+			tasks: [{
+				id: "1A68B6779B47056F"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			id: "4A68521497086D2E"
+			tasks: [
+				{
+					id: "31389C864C663103"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "24D9FB808C804EB0"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "2450823EA02C01B7"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "14DED6724BF02AB5"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["097495C06F830453"]
+			id: "12D471C4890E75EA"
+			tasks: [{
+				id: "3E42A1E123465D64"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 11
+						color2: 11
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["5F57CBA209B3664C"]
+			id: "56CB65D9ABACD766"
+			tasks: [{
+				id: "4EB576DDFBA03C74"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: [
+				"07A910AFBFD2E06D"
+				"4E8A6157DA557854"
+			]
+			id: "60401E93790A637E"
+			tasks: [{
+				id: "20741894C9BD3797"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			dependencies: ["60401E93790A637E"]
+			id: "3C195E27938EA7B0"
+			tasks: [{
+				id: "3351044454663540"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			dependencies: ["60401E93790A637E"]
+			id: "2C23D94E579E0122"
+			tasks: [{
+				id: "376211AE4C30F218"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			dependencies: ["2C23D94E579E0122"]
+			id: "3879493D1CCB9A90"
+			tasks: [{
+				id: "0ABF9EEFE0B469C7"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.5d
+			dependencies: [
+				"3879493D1CCB9A90"
+				"3C195E27938EA7B0"
+			]
+			id: "7611B8A0B2D8D1EF"
+			tasks: [{
+				id: "03B7851A7706FB9A"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			dependencies: ["7611B8A0B2D8D1EF"]
+			id: "1A2146185AC53899"
+			tasks: [{
+				id: "78B17AD866BCF127"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["2C23D94E579E0122"]
+			id: "0FD81E94B97D8301"
+			tasks: [{
+				id: "2B6CDB8518E420FE"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: ["0FD81E94B97D8301"]
+			id: "508FA847CBB7297E"
+			tasks: [{
+				id: "0425C41982649D00"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["60401E93790A637E"]
+			id: "5405B6CA575AA866"
+			tasks: [{
+				id: "1B171E5019EB771F"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			dependencies: ["508FA847CBB7297E"]
+			id: "1BBAEFDDC2B7F810"
+			tasks: [{
+				id: "5021327854DFDD36"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["07A910AFBFD2E06D"]
+			id: "4E8A6157DA557854"
+			tasks: [{
+				id: "0A3205A7CE285E6D"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["10663ECC22ED81B2"]
+			id: "7695114D9173B761"
+			tasks: [{
+				id: "094DBF78E71D344A"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["74DE654B8DB9C5D6"]
+			id: "10663ECC22ED81B2"
+			tasks: [{
+				id: "4B6BA9D3E2FE4797"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["74F10C334D1E2534"]
+			id: "74DE654B8DB9C5D6"
+			tasks: [{
+				id: "2E622FA1C210BE9B"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["74DE654B8DB9C5D6"]
+			id: "2A96840BF7DB9704"
+			tasks: [
+				{
+					id: "2D0C2EF9D2738CB9"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "209F936DA67BA7BF"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["74DE654B8DB9C5D6"]
+			id: "238DE6D173E2727B"
+			tasks: [{
+				id: "57F97E56ACCDE2BA"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["74DE654B8DB9C5D6"]
+			id: "697592FF0CAE8318"
+			tasks: [{
+				id: "6B2B3055E9C52840"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+		}
+	]
 }

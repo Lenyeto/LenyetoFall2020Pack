@@ -1,12 +1,6 @@
 {
 	chapter_groups: [
-		{
-			id: "443CFD57714C95C6",
-			title: "A Whole New World"
-		},
-		{
-			id: "69847CC76F46001E",
-			title: "Get Explorin'"
-		}
+		{ id: "443CFD57714C95C6", title: "A Whole New World" }
+		{ id: "69847CC76F46001E", title: "Get Explorin'" }
 	]
 }

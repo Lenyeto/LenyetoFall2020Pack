@@ -1,18 +1,79 @@
 {
-	id: "714386E010731602",
-	group: "69847CC76F46001E",
-	order_index: 0,
-	filename: "dimensions",
-	title: "Dimensions!",
-	default_quest_shape: "",
-	quests: [{
-		x: -1.0d,
-		y: 1.0d,
-		id: "53BED9F4EA7EADF1",
-		tasks: [{
-			id: "476D292C50A6DFC2",
-			type: "dimension",
-			dimension: "minecraft:overworld"
-		}]
-	}]
+	id: "714386E010731602"
+	group: "69847CC76F46001E"
+	order_index: 0
+	filename: "dimensions"
+	title: "Dimensions!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:oak_sapling"
+			x: 0.5d
+			y: 1.5d
+			id: "53BED9F4EA7EADF1"
+			tasks: [{
+				id: "476D292C50A6DFC2"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -2.5d
+			y: 3.5d
+			id: "68C245971F6386BB"
+			tasks: [{
+				id: "799908D6BD0B16CB"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			icon: "minecraft:netherite_scrap"
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["53BED9F4EA7EADF1"]
+			id: "34429E9CD9BCC23A"
+			tasks: [{
+				id: "14B73EDD40587DCD"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			icon: "minecraft:ender_eye"
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["34429E9CD9BCC23A"]
+			id: "322DAE654FD949BD"
+			tasks: [{
+				id: "6B2C520AF150E55D"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			icon: "tropicraft:pina_colada"
+			x: -2.5d
+			y: 5.0d
+			id: "3B991098C9B495B2"
+			tasks: [{
+				id: "0AAFEA066BF474F3"
+				type: "dimension"
+				dimension: "tropicraft:tropics"
+			}]
+		}
+		{
+			icon: "atum:scarab"
+			x: -2.5d
+			y: 2.0d
+			id: "1DE7AD9F2BA5ABDD"
+			tasks: [{
+				id: "35FBC0971D4AF9AB"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+		}
+	]
 }
